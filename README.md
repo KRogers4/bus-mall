@@ -1,2 +1,2 @@
-# bus-mall
+# bus-mall_KR
 Sprint 3
