@@ -7,8 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel= 'icon' type='image/png' href='../bus-mall/images/BMcon2.png'>
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <style>
-        /* div.a {  <-- Indents first line in a paragraph. not what i was looking for
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.min.js'></script>
+    <!-- <style>
+        /* div.a {  Indents first line in a paragraph. not what i was looking for
             text-indent: 20px;
             } */
 
@@ -18,7 +19,7 @@
         border: 3px solid #73AD21;
         padding: 5px;
 }       
-       </style>
+       </style> -->
 
 </head>
 <body>
@@ -28,7 +29,8 @@
         <div id="logo"><a href="#"><span class="pat-style"> BUS-Mall: </span><span class="crab-style">Choose </span><span class="cookies-style"> From The Pictures Below</span></a></div>
         <div id="main-nav">
             <ul>
-                <li><a href="#" class="current">Home</a></li>
+                <!-- <li><a href="#" class="current">Home</a></li> -->
+                <li><a href='./index.html' class="current">Home</a></li>
                 <li><a href="#" class="pats-white">Start Over</a></li>
                 <!-- <li><a href="#" class="pats-white">Locations</a></li>
                     <li><a href="#" class="pats-white">Contact Us</a></li> -->
@@ -42,10 +44,10 @@
     <div class="center">
     <!-- <div class="a"> -->
             <!-- MAKE A CONTAINER AND <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.</p> -->
-            <p><h3>BUS-Mall -- Where you can Buy the Ultimate Stuff!</h3></p>
-            <p><h4>Thank you for participating in this survey. This survey takes 10 minutes to complete 
-                and based on your selections made, we will confirm the best products for your online shopping pleasure.
-            </br>As a thanks for your time, the first ten survey respondants will receive 100 credits towards BUS-Mall merchandise.
+            <p><h3>BUS-Mall -- where you can Buy the Ultimate Stuff!</h3></p>
+            <p><h4>Thank you for participating in our survey. The survey takes 10 minutes to complete 
+                and based on your selections made, we will confirm the best products for your ultimate shopping experience.
+            </br>As a thanks for your time, ten survey respondants will receive 100 credits towards BUS-Mall merchandise.
                 Thanks for your feedback!</h4></p>
         </div>
         <h1>Choose Your Favorite Item</h1>
@@ -55,8 +57,10 @@
             <img id='image2' src=''/>
             <img id='image3' src=''/> -->
         <!--    <img id='image3' /> -->
+        <canvas id='myChart'></canvas>
 
 
 </body>
 <script src="main.js"></script>
+<script src="chart.js"></script>
 </html>
